@@ -1,0 +1,30 @@
+{
+  "name": "dragonball-quasar",
+  "version": "1.0.0",
+  "description": "Clon de la presentacion de Dragon Ball API con buscador, hecho en Vue 3 + Quasar",
+  "productName": "Dragon Ball API",
+  "author": "Leslie Neciosup Saavedra",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.0",
+    "axios": "^1.6.0",
+    "quasar": "^2.20.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^2.6.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "typescript": "^6.0.3"
+  },
+  "engines": {
+    "node": "^20 || ^22 || ^24",
+    "npm": ">= 6.13.4"
+  }
+}
